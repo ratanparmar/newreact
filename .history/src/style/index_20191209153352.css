@@ -1,0 +1,17 @@
+body{
+    background-image: url('../assets/background.jpg');
+}
+
+.App{
+    text-align: center;
+    padding: 5%;
+}
+
+.right-button{
+    cursor: pointer;
+    float: right;
+}
+
+.list-item{
+    display: inline-block;
+}

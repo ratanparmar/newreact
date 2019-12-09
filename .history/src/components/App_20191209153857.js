@@ -1,0 +1,19 @@
+import React, {Component } from 'react'
+import CharacterList from './CharacterList'
+import '../style/index.css'
+import HeroesList from './HeroesList'
+
+class App extends Component{
+
+    render(){
+        return(
+            <div className='App'>
+                <h2>Our Super Squad!!!</h2>
+                <CharacterList/>
+                <HeroesList/>
+            </div>
+        )
+    }
+}
+
+export default App;
