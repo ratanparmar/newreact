@@ -17,18 +17,7 @@ class CharacterList extends Component{
                                 <li key ={charcater.id} className='list-group-item'>
                                    <div className='list-item'>
                                        {charcater.name}
-                                       <li className='list-group-item'>
-                                           Strength
-                                       {charcater.strength}
-                                       </li>
-                                       <li className='list-group-item'>
-                                           Intelligence
-                                       {charcater.intelligence}
-                                       </li>
-                                       <li className='list-group-item'>
-                                           Speed
-                                       {charcater.speed}
-                                       </li>
+                                      
                                    </div>
                                    <div className='list-item right-button' onClick ={()=>this.props.addCharacterById(charcater.id)}>+</div>
                                 </li>
